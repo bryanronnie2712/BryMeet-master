@@ -1,15 +1,12 @@
-# Video Meeting
+# BryMeet
 
-Google Meet / Zoom clone in a few lines of code.
 
-Video Meeting is a video conference website that lets you stay in touch with all your friends.
+### BryMeeting is a cross-platform video conference app that lets you stay in touch with all your friends.
 
 Developed with ReactJS, Node.js, SocketIO.
 
-![Website](https://i.imgur.com/HhZD01o.jpg)
-
 ### Website
-Try Video Meeting here [video.sebastienbiollo.com](https://video.sebastienbiollo.com)
+
 
 
 ### Features
@@ -23,5 +20,5 @@ Try Video Meeting here [video.sebastienbiollo.com](https://video.sebastienbiollo
 
 ### Local setup
 
-1. `yarn install`
-2. `yarn dev`
+1. `npm install`
+2. `npm start`
