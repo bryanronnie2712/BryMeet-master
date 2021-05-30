@@ -1,0 +1,21 @@
+html {
+    height: auto;
+    background: url(/static/media/pattern.69db20e5.png);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    background-color: #101010;
+}
+body {
+	margin: 0;
+	text-align: center;
+	background-color: transparent;
+}
+
+.container2 {
+	padding-top: 30px;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: transparent;
+}
