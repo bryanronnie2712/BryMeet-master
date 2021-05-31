@@ -1,7 +1,7 @@
 {
   "short_name": "BryMeet",
   "name": "Video Conferencing",
-  "start_url": "https://brymeet.web.app",
+  "start_url": "https://brymeet.herokuapp.com",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
