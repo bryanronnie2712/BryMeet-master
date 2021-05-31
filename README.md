@@ -1,12 +1,12 @@
 # BryMeet
 
 
-### BryMeeting is a cross-platform video conference app that lets you stay in touch with all your friends.
+### BryMeet is a cross-platform video conference app that lets you stay in touch with all your friends.
 
 Developed with ReactJS, Node.js, SocketIO.
 
 ### Website
-
+https://brymeet.netlify.app/
 
 
 ### Features
