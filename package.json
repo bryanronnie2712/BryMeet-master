@@ -33,10 +33,10 @@
     "xss": "^1.0.8"
   },
   "scripts": {
-    "start": "concurrently -n  \"nodemon app.js\" \"react-scripts start\"",
+    "start":  "react-scripts start",
     "server": "NODE_ENV=production nodemon app.js",
     "client": "react-script start",
-    "build": "concurrently -n \"node app.js\" \"react-scripts build\"",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
