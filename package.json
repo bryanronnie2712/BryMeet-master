@@ -2,7 +2,7 @@
   "name": "brymeet",
   "version": "1.0.0",
   "description": "A minimal Electron-React-Express video conferencing application",
-  "main": "app.js",
+  "main": "src/index.js",
   "engines": {
     "node": "12.11.1"
   },
@@ -37,7 +37,7 @@
     "xss": "^1.0.8"
   },
   "scripts": {
-    "start":  "react-scripts build && serve -s build"
+    "start":  "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
