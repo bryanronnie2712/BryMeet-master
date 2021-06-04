@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "A minimal Electron-React-Express video conferencing application",
   "main": "src/index.js",
-  "engines": {
-    "node": "12.11.1"
-  },
-  
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.11.2",
@@ -38,12 +34,9 @@
     "xss": "^1.0.8"
   },
   "scripts": {
-    "start": "run-p start:**",
-    "start:app": "react-scripts start",
-    "build": "run-p build:**",
-    "build:app": "react-scripts build",
-    "deploy:draft": "netlify deploy --dir=build --functions=functions",
-    "deploy:prod": "netlify deploy --dir=build --functions=functions --prod"
+    "start":  "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -61,6 +54,3 @@
     ]
   }
 }
-
-
-
