@@ -466,7 +466,7 @@ class Video extends Component {
 
 						<div style={{ justifyContent: "center", textAlign: "center", paddingTop: "40px" }}>
 							<video id="my-video" ref={this.localVideoref} autoPlay muted style={{
-								objectFit: "contain",width: "50%",height:"inherit"}}></video><h2 style={{ marginBlockStart: "-3%",position: "relative",left: "-18%",color: "aliceblue"}} class="userName">{this.state.username}</h2>								
+								objectFit: "contain",width: "50%",height:"inherit"}}></video><h2 style={{ marginBlockStart: "-3%",position: "relative",left: "-18%",color: "aliceblue"}} className="userName">{this.state.username}</h2>								
 						</div>
 					</div>
 					:

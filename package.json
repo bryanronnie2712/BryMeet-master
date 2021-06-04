@@ -39,9 +39,9 @@
   },
   "scripts": {
     "start": "run-p start:**",
-    "start:app": "cd client && react-scripts start",
+    "start:app": "react-scripts start",
     "build": "run-p build:**",
-    "build:app": "cd client && react-scripts build",
+    "build:app": "react-scripts build",
     "deploy:draft": "netlify deploy --dir=build --functions=functions",
     "deploy:prod": "netlify deploy --dir=build --functions=functions --prod"
   },
