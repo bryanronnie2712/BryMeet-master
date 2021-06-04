@@ -6,6 +6,7 @@
   "engines": {
     "node": "12.11.1"
   },
+  
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.11.2",
@@ -37,7 +38,12 @@
     "xss": "^1.0.8"
   },
   "scripts": {
-    "start":  "serve -s build"
+    "start": "run-p start:**",
+    "start:app": "cd client && react-scripts start",
+    "build": "run-p build:**",
+    "build:app": "cd client && react-scripts build",
+    "deploy:draft": "netlify deploy --dir=build --functions=functions",
+    "deploy:prod": "netlify deploy --dir=build --functions=functions --prod"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -55,3 +61,6 @@
     ]
   }
 }
+
+
+
