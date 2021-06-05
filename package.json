@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A minimal Electron-React-Express video conferencing application",
   "main": "src/index.js",
+
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.11.2",
@@ -35,7 +36,8 @@
   },
   "scripts": {
     "start":  "react-scripts start",
-    "build": "react-scripts build",
+    "test":  "react-scripts test",
+    "build":  "react-scripts build",
     "deploy": "serve -s build"
   },
   "eslintConfig": {
