@@ -21,7 +21,7 @@ import Modal from 'react-bootstrap/Modal'
 import 'bootstrap/dist/css/bootstrap.css'
 import "./Video.css"
 
-const server_url =  'https://localhost:4001'  
+const server_url =  'https://brymeet-server-europe.herokuapp.com/'  
 // https://brymeet-server-europe.herokuapp.com/
 var connections = {}
 const peerConnectionConfig = {
