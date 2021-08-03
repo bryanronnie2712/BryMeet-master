@@ -317,7 +317,7 @@ class Video extends Component {
 							let video = document.createElement('video')
 
 							let css = {minWidth: cssMesure.minWidth, minHeight: cssMesure.minHeight, maxHeight: "100%", margin: "10px",
-								 objectFit: "contain",height:"inherit"}
+								 objectFit: "cover",height:"inherit"}
 							for(let i in css) video.style[i] = css[i]
 
 							video.style.setProperty("width", cssMesure.width)
@@ -326,8 +326,8 @@ class Video extends Component {
 							video.srcObject = event.stream
 							video.autoplay = true
 							video.playsinline = true
-
-							main.appendChild(video)
+							video.controls = true;
+							main.appendChild(video);
 						}
 					}
 
@@ -466,7 +466,7 @@ class Video extends Component {
 
 						<div style={{ justifyContent: "center", textAlign: "center", paddingTop: "40px" }}>
 							<video id="my-video" ref={this.localVideoref} autoPlay muted style={{
-								objectFit: "contain",width: "50%",height:"inherit"}}></video><h2 style={{ marginBlockStart: "-3%",position: "relative",left: "-18%",color: "aliceblue"}} className="userName">{this.state.username}</h2>								
+								objectFit: "cover",width: "50%",height:"inherit"}}></video><h2 style={{ marginBlockStart: "-3%",position: "relative",left: "-18%",color: "aliceblue"}} className="userName">{this.state.username}</h2>								
 						</div>
 					</div>
 					:
@@ -526,7 +526,7 @@ class Video extends Component {
 						<div className="container">							
 							<Row id="main" className="flex-container" style={{ margin: 0, padding: 0 }}>
 								<video id="my-video" ref={this.localVideoref} autoPlay muted style={{
-									margin: "10px",objectFit: "contain",height:"inherit"}}></video>
+									margin: "10px",objectFit: "cover",height:"inherit"}}></video>
 							</Row>
 						</div>
 					</div>
